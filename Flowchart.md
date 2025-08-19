@@ -1,8 +1,9 @@
 # Data Ingestion & Compliance Workflow
 
+## Mermaid Flowchart (GitHub Rendered)
+
 ```mermaid
 flowchart TD
-
     A[Email / Slack \n JSON Input] --> B[Ingestion (REST)]
     B --> C[JSON Validation (Schema)]
 
